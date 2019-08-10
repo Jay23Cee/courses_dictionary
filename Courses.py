@@ -1,4 +1,4 @@
-courses = { "Math":["Algebra","Geometry", "Statistic", "Trig"],"Co Sci" :["Python", "Java", "C++"]      }
+courses = { "Math":["Algebra","Geometry", "Statistic", "Trig"],"Co Sci" :["Python", "Java", "C++"] , "Science" : ["Biology", "Chemistry", "MicroBiology"]     }
 
 
 
