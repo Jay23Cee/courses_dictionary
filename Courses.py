@@ -1,5 +1,12 @@
 courses = { "Math":["Algebra","Geometry", "Statistic", "Trig"],"Co Sci" :["Python", "Java", "C++"]      }
 
+class Department:
+	def __init__(self , dept):
+		self.Dept = dept
+
+class Courses(Department):
+	def __init__(self, dept, cname, profname):
+		super().__init__(dept)
 
 class Person:
 	def __init__(self, name, age, address, gender):
